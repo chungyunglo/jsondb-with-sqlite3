@@ -7,7 +7,7 @@ You can have your lang document.
 Here are En and Zh.
 More Introduce in there.
 
-## 範例
+## Example
 tt.py
 ```python
 import jsondbsqlite3 as db
