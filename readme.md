@@ -54,7 +54,7 @@ data = db.read_json(c, name)
 ```
 讀取json，如同get
 - `c`:(sqlite3.cursor )執行游標
-- `name`:(str )Json檔案名稱
+- `name`:(str )Json檔案名稱  
 return回傳
 - `value`={}:(list, tuple, dict)json值
 
@@ -82,7 +82,7 @@ db.del_json(b, c, name)
 aj = db.alljson(c )
 ```
 列出所有json檔案
-- `c`:(sqlite3.cursor )執行游標
+- `c`:(sqlite3.cursor )執行游標  
 return回傳
 - `list`:(list )所有json檔案列表
 
