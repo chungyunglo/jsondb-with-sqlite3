@@ -56,7 +56,7 @@ Read json, just like get.
 - `c`:(sqlite3.cursor )The cursor used for execution variables.
 - `name`:(str )Json's (file) name. 
 **>Return**
-- `value`={}:(list, tuple, dict)Json's value.
+- `value`:(list, tuple, dict)Json's value.
 
 ### ▼Update json
 ```python
@@ -66,7 +66,7 @@ Update json data, just like put.
 - `b`:(sqlite3.connection )Connected database variables.
 - `c`:(sqlite3.cursor )The cursor used for execution variables.
 - `name`:(str )Json's (file) name.
-- `value`={}:(list, tuple, dict)Json's value.
+- `value`:(list, tuple, dict)Json's value.
 
 ### ▼Remove(Delete) json
 ```python

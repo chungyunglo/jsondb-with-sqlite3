@@ -56,7 +56,7 @@ data = db.read_json(c, name)
 - `c`:(sqlite3.cursor )執行游標
 - `name`:(str )Json檔案名稱  
 **>Return回傳**
-- `value`={}:(list, tuple, dict)json值
+- `value`:(list, tuple, dict)json值
 
 ### ▼更新json
 ```python
@@ -66,7 +66,7 @@ db.dump_json(b, c, name, value)
 - `b`:(sqlite3.connection )連線的資料庫變數
 - `c`:(sqlite3.cursor )執行游標
 - `name`:(str )Json檔案名稱
-- `value`={}:(list, tuple, dict)json值
+- `value`:(list, tuple, dict)json值
 
 ### ▼刪除json
 ```python
